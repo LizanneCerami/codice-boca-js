@@ -1,0 +1,70 @@
+/* CSS RESET  */
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* BODY - the entire page */
+body {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/assets/menu-background.jpeg);
+  background-size: cover;
+}
+
+/* MENU BAR */
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #333;
+  list-style-type: none;
+}
+li {
+  color: white;
+  padding: 14px 16px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1024px;
+  background-color: white;
+  margin: 7rem auto;
+  border: 5px solid #ffaf31;
+  border-radius: 15px 50px;
+  padding: 0 15px;
+  background-image: url(/assets/700x700.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -190px;
+}
+
+header {
+  min-height: 200px;
+}
+h1 {
+  font-size: calc(3em + 2vw);
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+/* MENU */
+.menu-list {
+  margin: 5rem auto;
+  column-count: 2;
+  column-gap: 20px;
+  padding: 0 5rem;
+}
+.menu-item {
+  padding: 0 1rem 1rem;
+  page-break-inside: avoid;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a9a9a95c;
+}
